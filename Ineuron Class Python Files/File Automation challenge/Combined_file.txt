@@ -1,0 +1,737 @@
+
+
+----------------- Assignment_1(Advanced) ------------------
+
+Q1. What is the purpose of Python's OOP?
+
+
+
+Q2. Where does an inheritance search look for an attribute?
+
+
+
+Q3. How do you distinguish between a class object and an instance object?
+
+
+
+Q4. What makes the first argument in a class’s method function special?
+
+
+
+Q5. What is the purpose of the __init__ method?
+
+
+
+Q6. What is the process for creating a class instance?
+
+
+
+Q7. What is the process for creating a class?
+
+
+
+Q8. How would you define the superclasses of a class?
+
+----------------- Assignment_2(Advanced) ------------------
+
+Q1. What is the relationship between classes and modules?
+
+
+
+Q2. How do you make instances and classes?
+
+
+
+Q3. Where and how should be class attributes created?
+
+
+
+Q4. Where and how are instance attributes created?
+
+
+
+Q5. What does the term "self" in a Python class mean?
+
+
+
+Q6. How does a Python class handle operator overloading?
+
+
+
+Q7. When do you consider allowing operator overloading of your classes?
+
+
+
+Q8. What is the most popular form of operator overloading?
+
+
+
+Q9. What are the two most important concepts to grasp in order to comprehend Python OOP code?
+
+----------------- Assignment_3(Advanced) ------------------
+
+1. What is the concept of an abstract superclass?
+
+
+
+2. What happens when a class statement's top level contains a basic assignment statement?
+
+
+
+3. Why does a class need to manually call a superclass's __init__ method?
+
+
+
+4. How can you augment, instead of completely replacing, an inherited method?
+
+
+
+5. How is the local scope of a class different from that of a function?
+
+----------------- Assignment_4(Advanced) ------------------
+
+Q1. Which two operator overloading methods can you use in your classes to support iteration?
+
+
+
+Q2. In what contexts do the two operator overloading methods manage printing?
+
+
+
+Q3. In a class, how do you intercept slice operations?
+
+
+
+Q4. In a class, how do you capture in-place addition?
+
+
+
+Q5. When is it appropriate to use operator overloading?
+
+----------------- Assignment_5(Advanced) ------------------
+
+Q1. What is the meaning of multiple inheritance?
+
+
+
+Q2. What is the concept of delegation?
+
+
+
+Q3. What is the concept of composition?
+
+
+
+Q4. What are bound methods and how do we use them?
+
+
+
+Q5. What is the purpose of pseudoprivate attributes?
+
+----------------- Assignment_1 ------------------
+
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+* 
+'hello'
+-87.8
+- 
+/ 
+
+6 
+
+2. What is the difference between string and variable?
+
+3. Describe three different data types.
+
+4. What is an expression made up of? What do all expressions do?
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+
+8. Why is eggs a valid variable name while 100 is invalid?
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+
+
+----------------- Assignment_2 ------------------
+
+1.What are the two values of the Boolean data type? How do you write them?
+2. What are the three different types of Boolean operators?
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5)
+not (5 > 4)
+(5 > 4) or (3 == 5)
+not ((5 > 4) or (3 == 5))
+(True and True) and (True == False)
+(not False) or (not True)
+5. What are the six comparison operators?
+6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
+7. Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+print('eggs')
+if spam > 5:
+print('bacon')
+else:
+print('ham')
+print('spam')
+print('spam')
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+10. How can you tell the difference between break and continue?
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+
+
+----------------- Assignment_3 ------------------
+
+1. Why are functions advantageous to have in your programs?
+2. When does the code in a function run: when it's specified or when it's called?
+3. What statement creates a function?
+4. What is the difference between a function and a function call?
+5. How many global scopes are there in a Python program? How many local scopes?
+6. What happens to variables in a local scope when the function call returns?
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+8. If a function does not have a return statement, what is the return value of a call to that function?
+9. How do you make a function variable refer to the global variable?
+10. What is the data type of None?
+11. What does the sentence import areallyourpetsnamederic do?
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+13. What can you do to save a programme from crashing if it encounters an error?
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+
+
+----------------- Assignment_4 ------------------
+
+1. What exactly is []?
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Let's pretend the spam includes the list ['a', 'b', 'c', 'd'] for the next three queries.
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+4. What is the value of spam[-1]?
+5. What is the value of spam[:2]?
+Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+7. How does bacon.append(99) change the look of the list value in bacon?
+8. How does bacon.remove('cat') change the look of the list in bacon?
+9. What are the list concatenation and list replication operators?
+10. What is difference between the list methods append() and insert()?
+11. What are the two methods for removing items from a list?
+12. Describe how list values and string values are identical.
+13. What's the difference between tuples and lists?
+14. How do you type a tuple value that only contains the integer 42?
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+
+
+----------------- Assignment_5 ------------------
+
+1. What does an empty dictionary's code look like?
+2. What is the value of a dictionary value with the key 'foo' and the value 42?
+3. What is the most significant distinction between a dictionary and a list?
+4. What happens if you try to access spam['foo'] if spam is {'bar': 100}?
+5. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.keys()?
+6. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.values()?
+7. What is a shortcut for the following code?
+if 'color' not in spam:
+spam['color'] = 'black'
+
+8. How do you "pretty print" dictionary values using which module and function?
+
+
+----------------- Programming_Assignment1(Advanced) ------------------
+
+1. Write a function that takes a list of lists and returns the value of all of the symbols in it, where each symbol adds or takes something from the total score. Symbol values:
+
+# = 5
+O = 3
+X = 1
+! = -1
+!! = -3
+!!! = -5
+
+A list of lists containing 2 #s, a O, and a !!! would equal (0 + 5 + 5 + 3 - 5) 8.
+
+If the final score is negative, return 0 (e.g. 3 #s, 3 !!s, 2 !!!s and a X would be (0 + 5 + 5 + 5 - 3 - 3 - 3 - 5 - 5 + 1) -3, so return 0.
+
+Examples
+
+check_score([
+  ["#", "!"],
+  ["!!", "X"]
+]) ➞ 2
+
+check_score([
+  ["!!!", "O", "!"],
+  ["X", "#", "!!!"],
+  ["!!", "X", "O"]
+]) ➞ 0
+
+2. Create a function that takes a variable number of arguments, each argument representing the number of items in a group, and returns the number of permutations (combinations) of items that you could get by taking one item from each group.
+
+Examples
+
+combinations(2, 3) ➞ 6
+
+combinations(3, 7, 4) ➞ 84
+
+combinations(2, 3, 4, 5) ➞ 120
+
+
+
+
+3. Create a function that takes a string as an argument and returns the Morse code equivalent.
+
+Examples
+
+encode_morse("EDABBIT CHALLENGE") ➞ ". -.. .- -... -... .. -   -.-. .... .- .-.. .-.. . -. --. ."
+
+encode_morse("HELP ME !") ➞ ".... . .-.. .--.   -- .   -.-.--"
+
+This dictionary can be used for coding:
+
+char_to_dots = {
+  'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
+  'G': '--.', 'H': '....', 'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..',
+  'M': '--', 'N': '-.', 'O': '---', 'P': '.--.', 'Q': '--.-', 'R': '.-.',
+  'S': '...', 'T': '-', 'U': '..-', 'V': '...-', 'W': '.--', 'X': '-..-',
+  'Y': '-.--', 'Z': '--..', ' ': ' ', '0': '-----',
+  '1': '.----', '2': '..---', '3': '...--', '4': '....-', '5': '.....',
+  '6': '-....', '7': '--...', '8': '---..', '9': '----.',
+  '&': '.-...', "'": '.----.', '@': '.--.-.', ')': '-.--.-', '(': '-.--.',
+  ':': '---...', ',': '--..--', '=': '-...-', '!': '-.-.--', '.': '.-.-.-',
+  '-': '-....-', '+': '.-.-.', '"': '.-..-.', '?': '..--..', '/': '-..-.'
+}
+
+4.  Write a function that takes a number and returns True if it's a prime; False otherwise. The number can be 2^64-1 (2 to the power of 63, not XOR). With the standard technique it would be O(2^64-1), which is much too large for the 10 second time limit.
+
+Examples
+
+prime(7) ➞ True
+
+prime(56963) ➞ True
+
+prime(5151512515524) ➞ False
+
+
+
+
+
+
+
+5.  Create a function that converts a word to a bitstring and then to a boolean list based on the following criteria:
+
+    1. Locate the position of the letter in the English alphabet (from 1 to 26).
+    2. Odd positions will be represented as 1 and 0 otherwise.
+    3. Convert the represented positions to boolean values, 1 for True and 0 for False.
+    4. Store the conversions into an array.
+
+ Examples
+
+to_boolean_list("deep") ➞ [False, True, True, False]
+# deep converts to 0110
+# d is the 4th alphabet - 0
+# e is the 5th alphabet - 1
+# e is the 5th alphabet - 1
+# p is the 16th alphabet - 0
+
+to_boolean_list("loves") ➞ [False, True, False, True, True]
+
+to_boolean_list("tesh") ➞ [False, True, True, False]
+
+
+----------------- Programming_Assignment2(Advanced) ------------------
+
+1. Write a function that takes a positive integer num and calculates how many dots exist in a pentagonal shape around the center dot on the Nth iteration.
+
+In the image below you can see the first iteration is only a single dot. On the second, there are 6 dots. On the third, there are 16 dots, and on the fourth there are 31 dots.
+
+
+
+
+
+
+
+
+Return the number of dots that exist in the whole pentagon on the Nth iteration.
+
+Examples
+
+pentagonal(1) ➞ 1
+
+pentagonal(2) ➞ 6
+
+pentagonal(3) ➞ 16
+
+pentagonal(8) ➞ 141
+
+
+
+2.  Make a function that encrypts a given input with these steps:
+
+Input: "apple"
+
+Step 1: Reverse the input: "elppa"
+
+Step 2: Replace all vowels using the following chart:
+
+a => 0
+e => 1
+i => 2
+o => 2
+u => 3
+
+# "1lpp0"
+
+Step 3: Add "aca" to the end of the word: "1lpp0aca"
+
+Output: "1lpp0aca"
+
+Examples
+
+encrypt("banana") ➞ "0n0n0baca"
+
+encrypt("karaca") ➞ "0c0r0kaca"
+
+encrypt("burak") ➞ "k0r3baca"
+
+encrypt("alpaca") ➞ "0c0pl0aca"
+
+3. Given the month and year as numbers, return whether that month contains a Friday 13th.(i.e You can check Python's datetime module)
+
+Examples
+
+has_friday_13(3, 2020) ➞ True
+
+has_friday_13(10, 2017) ➞ True
+
+has_friday_13(1, 1985) ➞ False
+
+
+4. Write a regular expression that will help us count how many bad cookies are produced every day. You must use RegEx negative lookbehind.
+
+Example
+
+lst = ["bad cookie", "good cookie", "bad cookie", "good cookie", "good cookie"]
+pattern = "yourregularexpressionhere"
+
+len(re.findall(pattern, ", ".join(lst))) ➞ 2
+
+5. Given a list of words in the singular form, return a set of those words in the plural form if they appear more than once in the list.
+
+Examples
+
+pluralize(["cow", "pig", "cow", "cow"]) ➞ { "cows", "pig" }
+
+pluralize(["table", "table", "table"]) ➞ { "tables" }
+
+pluralize(["chair", "pencil", "arm"]) ➞ { "chair", "pencil", "arm" }
+
+
+----------------- Programming_Assignment3(Advanced) ------------------
+
+1. Create a function to perform basic arithmetic operations that includes addition, subtraction, multiplication and division on a string number (e.g. "12 + 24" or "23 - 21" or "12 // 12" or "12 * 21").
+
+Here, we have 1 followed by a space, operator followed by another space and 2. For the challenge, we are going to have only two numbers between 1 valid operator. The return value should be a number.
+
+eval() is not allowed. In case of division, whenever the second number equals "0" return -1.
+
+For example:
+
+"15 // 0"  ➞ -1
+
+Examples
+
+arithmetic_operation("12 + 12") ➞ 24 // 12 + 12 = 24
+
+arithmetic_operation("12 - 12") ➞ 24 // 12 - 12 = 0
+
+arithmetic_operation("12 * 12") ➞ 144 // 12 * 12 = 144
+
+arithmetic_operation("12 // 0") ➞ -1 // 12 / 0 = -1
+
+2. Write a function that takes the coordinates of three points in the form of a 2d array and returns the perimeter of the triangle. The given points are the vertices of a triangle on a two-dimensional plane.
+
+Examples
+
+perimeter( [ [15, 7], [5, 22], [11, 1] ] ) ➞ 47.08
+
+perimeter( [ [0, 0], [0, 1], [1, 0] ] ) ➞ 3.42
+
+perimeter( [ [-10, -10], [10, 10 ], [-10, 10] ] ) ➞ 68.28
+
+3. A city skyline can be represented as a 2-D list with 1s representing buildings. In the example below, the height of the tallest building is 4 (second-most right column).
+
+[[0, 0, 0, 0, 0, 0],
+[0, 0, 0, 0, 1, 0],
+[0, 0, 1, 0, 1, 0],
+[0, 1, 1, 1, 1, 0],
+[1, 1, 1, 1, 1, 1]]
+
+Create a function that takes a skyline (2-D list of 0's and 1's) and returns the height of the tallest skyscraper.
+
+Examples
+
+tallest_skyscraper([
+  [0, 0, 0, 0],
+  [0, 1, 0, 0],
+  [0, 1, 1, 0],
+  [1, 1, 1, 1]
+]) ➞ 3
+
+tallest_skyscraper([
+  [0, 1, 0, 0],
+  [0, 1, 0, 0],
+  [0, 1, 1, 0],
+  [1, 1, 1, 1]
+]) ➞ 4
+
+tallest_skyscraper([
+  [0, 0, 0, 0],
+  [0, 0, 0, 0],
+  [1, 1, 1, 0],
+  [1, 1, 1, 1]
+]) ➞ 2
+
+4. A financial institution provides professional services to banks and claims charges from the customers based on the number of man-days provided. Internally, it has set a scheme to motivate and reward staff to meet and exceed targeted billable utilization and revenues by paying a bonus for each day claimed from customers in excess of a threshold target.
+
+This quarterly scheme is calculated with a threshold target of 32 days per quarter, and the incentive payment for each billable day in excess of such threshold target is shown as follows:
+
+Days	                             Bonus
+0 to 32 days	                   Zero
+33 to 40 days	         SGD$325 per billable day
+41 to 48 days	         SGD$550 per billable day
+Greater than 48 days      SGD$600 per billable day
+
+Please note that incentive payment is calculated progressively. As an example, if an employee reached total billable days of 45 in a quarter, his/her incentive payment is computed as follows:
+
+32*0 + 8*325 + 5*550 = 5350
+
+Write a function to read the billable days of an employee and return the bonus he/she has obtained in that quarter.
+
+Examples
+
+bonus(15) ➞ 0
+
+bonus(37) ➞ 1625
+
+bonus(50) ➞ 8200
+
+5. A number is said to be Disarium if the sum of its digits raised to their respective positions is the number itself.
+
+Create a function that determines whether a number is a Disarium or not.
+
+Examples
+
+is_disarium(75) ➞ False
+# 7^1 + 5^2 = 7 + 25 = 32
+
+is_disarium(135) ➞ True
+# 1^1 + 3^2 + 5^3 = 1 + 9 + 125 = 135
+
+is_disarium(544) ➞ False
+
+is_disarium(518) ➞ True
+
+is_disarium(466) ➞ False
+
+is_disarium(8) ➞ True
+
+----------------- Programming_Assignment4(Advanced) ------------------
+
+1. In mathematics, the Fibonacci numbers, commonly denoted Fn, form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1:
+
+
+
+
+
+
+
+
+
+
+The beginning of the sequence is this:
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
+
+The function fastFib(num) returns the fibonacci number Fn, of the given num as an argument.
+
+Examples
+
+fib_fast(5) ➞ 5
+
+fib_fast(10) ➞ 55
+
+fib_fast(20) ➞ 6765
+
+fib_fast(50) ➞ 12586269025
+
+2. Create a function that takes a strings characters as ASCII and returns each characters hexadecimal value as a string.
+
+Examples
+
+convert_to_hex("hello world") ➞ "68 65 6c 6c 6f 20 77 6f 72 6c 64"
+
+convert_to_hex("Big Boi") ➞ "42 69 67 20 42 6f 69"
+
+convert_to_hex("Marty Poppinson") ➞ "4d 61 72 74 79 20 50 6f 70 70 69 6e 73 6f 6e"
+
+
+
+3. Someone has attempted to censor my strings by replacing every vowel with a *, l*k* th*s. Luckily, I've been able to find the vowels that were removed.
+
+Given a censored string and a string of the censored vowels, return the original uncensored string.
+
+Example
+
+uncensor("Wh*r* d*d my v*w*ls g*?", "eeioeo") ➞ "Where did my vowels go?"
+
+uncensor("abcd", "") ➞ "abcd"
+
+uncensor("*PP*RC*S*", "UEAE") ➞ "UPPERCASE"
+
+4. Write a function that takes an IP address and returns the domain name using PTR DNS records.
+
+Example
+
+get_domain("8.8.8.8") ➞ "dns.google"
+
+get_domain("8.8.4.4") ➞ "dns.google"
+
+
+5. Create a function that takes an integer n and returns the factorial of factorials. See below examples for a better understanding:
+
+Examples
+
+fact_of_fact(4) ➞ 288
+# 4! * 3! * 2! * 1! = 288
+
+fact_of_fact(5) ➞ 34560
+
+fact_of_fact(6) ➞ 24883200
+
+----------------- Programming_Assignment5(Advanced) ------------------
+
+1. Create a function that takes a number n (integer greater than zero) as an argument, and returns 2 if n is odd and 8 if n is even.
+
+You can only use the following arithmetic operators: addition of numbers +, subtraction of numbers -, multiplication of number *, division of number /, and exponentiation **.
+
+You are not allowed to use any other methods in this challenge (i.e. no if statements, comparison operators, etc).
+
+Examples
+
+f(1) ➞ 2
+
+f(2) ➞ 8
+
+f(3) ➞ 2
+
+2. Create a function that returns the majority vote in a list. A majority vote is an element that occurs > N/2 times in a list (where N is the length of the list).
+
+Examples
+
+majority_vote(["A", "A", "B"]) ➞ "A"
+
+majority_vote(["A", "A", "A", "B", "C", "A"]) ➞ "A"
+
+majority_vote(["A", "B", "B", "A", "C", "C"]) ➞ None
+
+3. Create a function that takes a string txt and censors any word from a given list lst. The text removed must be replaced by the given character char.
+
+Examples
+
+censor_string("Today is a Wednesday!", ["Today", "a"], "-") ➞ "----- is - Wednesday!"
+
+censor_string("The cow jumped over the moon.", ["cow", "over"], "*"), "The *** jumped **** the moon.")
+
+censor_string("Why did the chicken cross the road?", ["Did", "chicken", "road"], "*") ➞ "Why *** the ******* cross the ****?"
+
+
+4. In mathematics a Polydivisible Number (or magic number) is a number in a given number base with digits abcde... that has the following properties:
+
+-  Its first digit a is not 0.
+- The number formed by its first two digits ab is a multiple of 2.
+- The number formed by its first three digits abc is a multiple of 3.
+- The number formed by its first four digits abcd is a multiple of 4.
+
+Create a function which takes an integer n and returns True if the given number is a Polydivisible Number and False otherwise.
+
+Examples
+
+is_polydivisible(1232) ➞ True
+# 1     / 1 = 1
+# 12    / 2 = 6
+# 123   / 3 = 41
+# 1232  / 4 = 308
+
+is_polydivisible(123220 ) ➞ False
+# 1   / 1 = 1
+# 12   / 2 = 6
+# 123   / 3 = 41
+# 1232   / 4 = 308
+# 12322   / 5 = 2464.4         # Not a Whole Number
+# 123220   /6 = 220536.333...  # Not a Whole Number
+
+5. Create a function that takes a list of numbers and returns the sum of all prime numbers in the list.
+
+Examples
+
+sum_primes([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) ➞ 17
+
+sum_primes([2, 3, 4, 11, 20, 50, 71]) ➞ 87
+
+sum_primes([]) ➞ None
+
+
+----------------- Programming_Assingment1 ------------------
+
+Write a Python program to print "Hello Python"?
+Write a Python program to do arithmetical operations addition and division.?
+Write a Python program to find the area of a triangle?
+Write a Python program to swap two variables?
+Write a Python program to generate a random number?
+
+----------------- Programming_Assingment2 ------------------
+
+Write a Python program to convert kilometers to miles?
+Write a Python program to convert Celsius to Fahrenheit?
+Write a Python program to display calendar?
+Write a Python program to solve quadratic equation?
+Write a Python program to swap two variables without temp variable?
+
+
+----------------- Programming_Assingment3 ------------------
+
+Write a Python Program to Check if a Number is Positive, Negative or Zero?
+Write a Python Program to Check if a Number is Odd or Even?
+Write a Python Program to Check Leap Year?
+Write a Python Program to Check Prime Number?
+Write a Python Program to Print all Prime Numbers in an Interval of 1-10000?
+
+----------------- Programming_Assingment4 ------------------
+
+Write a Python Program to Find the Factorial of a Number?
+Write a Python Program to Display the multiplication Table?
+Write a Python Program to Print the Fibonacci sequence?
+Write a Python Program to Check Armstrong Number?
+Write a Python Program to Find Armstrong Number in an Interval?
+Write a Python Program to Find the Sum of Natural Numbers?
+
+----------------- Programming_Assingment5 ------------------
+
+Write a Python Program to Find LCM?
+Write a Python Program to Find HCF?
+Write a Python Program to Convert Decimal to Binary, Octal and Hexadecimal?
+Write a Python Program To Find ASCII value of a character?
+Write a Python Program to Make a Simple Calculator with 4 basic mathematical operations?
